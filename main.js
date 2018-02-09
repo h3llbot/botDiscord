@@ -3,8 +3,8 @@ const Discord = require('discord.js');
 const searchBot = new Discord.Client();
 const policeBot = new Discord.Client();
 
-const searchToken = "MzczNDEyNDIzODM2NzYyMTIy.DNSXBQ.PB85JieaFAPoqHVBhavuIKuQZyI";
-const policeToken = "MzczNDMzNDA4NjI3NDA4ODk5.DNSr-Q.-6x_zGB20Fy9QSqQvUa_kQ2FSj8";
+const searchToken = process.env.TOKEN1;
+const policeToken = process.env.TOKEN1;
 
 
 searchBot.on('ready', () => {
